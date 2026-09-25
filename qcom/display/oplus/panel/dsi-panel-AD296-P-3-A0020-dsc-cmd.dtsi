@@ -3076,6 +3076,8 @@
 	oplus,dsi-brightness-normal-max-level = <3515>;
 	oplus,dsi-dc-backlight-threshold = <1960>;
 	oplus,dsi-brightness-default-level = <1638>;
+	/* Separate the configured AOD LOW/HIGH backlight requests. */
+	oplus,dsi-aod-low-brightness-threshold = <555>;
 
 	/* ESD CONFIG */
 	qcom,esd-check-enabled;
